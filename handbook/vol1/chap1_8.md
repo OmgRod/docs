@@ -38,8 +38,8 @@ public:
         return scene;
     }
 
-    static GPKofiLayer* create() {
-        GPKofiLayer* ret = new GPKofiLayer();
+    static MyLayer* create() {
+        MyLayer* ret = new MyLayer();
         if (ret && ret->init()) {
             ret->autorelease();
             return ret;
