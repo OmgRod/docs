@@ -34,7 +34,7 @@ class MyLayer : CCLayer {
 public:
   static CCScene* scene() {
         auto scene = CCScene::create();
-        scene->addChild(GPKofiLayer::create());
+        scene->addChild(MyLayer::create());
         return scene;
     }
 
